@@ -13,10 +13,12 @@ class ParentComponent extends Component {
   }
 
   greetParent(childName) {
-    //regular concatenation
-    //alert('Hello' + this.state.parentName )
+    regular concatenation
+    alert('Hello' + this.state.parentName )
 
-    //Template Literal while using ES6
+    Template Literal while using ES6
+
+    lkklklklklk
     alert(`Hello${this.state.parentName} from ${childName}`);
   }
 
